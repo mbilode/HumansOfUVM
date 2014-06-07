@@ -23,6 +23,7 @@
 </header>
 <?php    
     
+include 'nav.php';
 
 if ($debug2){ print "<p>DEBUG MODE IS ON</p>";}
 $folder = "HumanPics";

@@ -1,24 +1,104 @@
-/*===================Home.php============*/
+/*===================home.php============*/
 
 body {
 margin: 0;
 background-color: black;
 }
 
-body>h1:nth-child(2) {
+
+
+header {
+position: fixed;
+width: 100%;
+z-index: 99999;
+margin-top: -1em;
+}
+
+#sliderFrame {
+width: 720px;
+padding: 20px;
+margin-top: 1em;
+margin-bottom: -4.3em;
+margin-left: 5em;
+border-radius: 6px;
+}
+
+body>h1:nth-child(3) {
 display: none;
 }
 
+element.style {
+}
 header>img {
-width: 100%;
-height: 10em;
-border-bottom: black solid 3px;
+width: 35%;
+border-bottom: solid white 4px;
 }
 
+element.style {
+background: url(https://www.uvm.edu/~mlbilode/HumansOfUVM/HumanPics/Human1.jpg);
+}
+
+
 div#slider {
-margin-top: -2em;
-margin-left: -4em;
+margin-top: 6em;
+margin-left: 6em;
 width: 880px;
-border: solid black 4px;
+border-right: solid black 29px;
 height: 499px;
+}
+
+/*===================midSection.php============*/
+
+ul#midSecNav>li>p {
+float: right;
+margin-top: -18em;
+width: 19em;
+line-height: 2em;
+margin-right: 18.6em;
+font-family: sans-serif;
+}
+
+ul#midSecNav>li {
+height: 14em;
+}
+
+ul#midSecNav {
+background-color: aliceblue;
+padding: 4em;
+border-top: 2em solid black;
+margin-top: -3em;
+list-style-type: none;
+}
+
+ul#midSecNav>li>a>img {
+width: 38em;
+margin-top: -9em;
+}
+
+
+/*===================nav.php============*/
+#nav {
+list-style-type: none;
+display: -webkit-box;
+margin-left: 24em;
+background-color: grey;
+padding: 2.04em;
+position: fixed;
+width: 100%;
+z-index: 99999;
+/* border-bottom: 3px black solid; */
+margin-top: -1em;
+font-size: 18px;
+}
+    
+    #nav li {
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 5px;
+    margin-left: 2em;
+    }
+
+#nav > li>a {
+color: white;
+text-decoration: none;
 }

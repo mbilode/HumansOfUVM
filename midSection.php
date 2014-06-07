@@ -1,8 +1,8 @@
-<?php
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
+<ul id="midSecNav">
+    
+    <li><a href="https://www.uvm.edu/~mlbilode/HumansOfUVM/home.php"><img style="border:0;" src="arrow.png" alt="HTML tutorial"></a><p>Click here for more information on how to find our facebook pages and how to find out twitter </p></li>
+    <li><a href="https://www.uvm.edu/~mlbilode/HumansOfUVM/home.php"><img style="border:0;" src="arrow.png" alt="HTML tutorial"></a><p>Click here for more information on how to find our facebook pages and how to find out twitter </p></li>
+    <li><a href="https://www.uvm.edu/~mlbilode/HumansOfUVM/home.php"><img style="border:0;" src="arrow.png" alt="HTML tutorial"></a><p>Click here for more information on how to find our facebook pages and how to find out twitter </p></li>
+</ul>
