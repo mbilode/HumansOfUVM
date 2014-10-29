@@ -209,6 +209,9 @@ $images2 = getFileList2($basePath2 . $folder2);
 if ($debug) print "<p>END</p>";
 
 include 'midSection.php';
+
+
+include'footer.php';
 ?>
 
 
