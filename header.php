@@ -1,5 +1,5 @@
 
 <!-- ######################     Page header   ############################## -->
 <header>
-    <h1>HUMANS OF UVM</h1>
+    <img src="HumansOfUVM.jpg" alt="Humans of UVM banner">
 </header>

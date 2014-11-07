@@ -58,7 +58,6 @@
         
         //// CONNECT TO DATABASE ////
 
-        // not sure if we should do it here beacuse of security //
         require_once('../database/myDatabase.php');
 
         $dbUserName = get_current_user() . '_writer';
@@ -69,7 +68,7 @@
         ?>	
 
     </head>
-    <!-- ################ body section ######################### -->
+    <!-- //// BODY //// -->
 
     <?php
     print '<body id="' . $path_parts['filename'] . '">';
