@@ -1,22 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Humans of UVM</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+  <?php>include("top.php")?>
+  
+  
   <body>
+      
+      
+  <img src="HumansOfUVM.jpg">
+      
+   <?php>include("nav.php")?>
     <h1>Humans of UVM</h1>
     <p>yo we are so amazing <br> maybe even more than everyone else<br>
     yo we are so amazing <br> maybe even more than everyone else<br>
@@ -36,5 +26,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    
+    
   </body>
 </html>
+zoo.uvm.edu ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA6FU2c1T+sawswr1e3mDwBEg6LQA0ajfduNG9HBEO6ZbXNK4Yd6vOoTYw+CQgNzoSIcj0KpPi7TwSmUeC2hVCOO7sMmM35uEWEs/O4sBPbWZeatRmQ5DO7chW1huTB2GizPBExl3Uer/8ZGgDxs+wyL0VoAsVCPrMswZEg+6iHfkF9f95r2vaqp6jfh1Hd/GGHwrr9og/hSQjsyroIH9E1vR6+Zk9jNGQ3uGhTAWG1xSewpy/feO0AdGWC3CwUKId3IjXr7u2EPXYYYb07+xYgrXTrDI0mdlw08lAO4mgAb0ENIy21oRnCRf5+SQob1W8dSmcxjyfgwsc33INuoQBfQ==

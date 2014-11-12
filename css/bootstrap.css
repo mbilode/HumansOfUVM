@@ -10,9 +10,93 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-body {
-  margin: 0;
+
+
+
+
+
+
+img:nth-child(1) {
+vertical-align: middle;
+margin-left: -57px;
+margin-top: -4em;
+width: 111%;
 }
+
+//<-------------------------------------NAVAGATION--------->
+
+nav ul li:nth-child(3):hover {
+margin-right: -11.8em;
+z-index: 1;
+}
+
+
+nav ul li {
+padding-left: 10px;
+}
+
+
+nav ul li:hover>ul {
+display: block;
+/* padding: 0; */
+margin-left: -80px;
+padding-top: 1.8em;
+opacity: 0.5;
+}
+
+nav ul ul {
+display: none;
+}
+
+
+nav>ul>li {
+padding: 5px;
+}
+
+body:not(img){
+    margin:4em;
+}
+
+ul, ol {
+margin-top: 0;
+margin-bottom: 10px;
+display: flex;
+list-style-type: none;
+float: right;
+margin-right: 5em;
+padding: 8px;
+}
+
+nav ul li {
+padding-left: 10px;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<----------------------------------------BOOTSTRAP GIVEN---------------->
+
+
+
+
+
+
+
+
+
 article,
 aside,
 details,
@@ -25,7 +109,8 @@ main,
 nav,
 section,
 summary {
-  display: block;
+  display: inline-blockelement.style {
+}
 }
 audio,
 canvas,
@@ -1218,11 +1303,7 @@ a.bg-danger:hover {
   margin: 40px 0 20px;
   border-bottom: 1px solid #eee;
 }
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 10px;
-}
+
 ul ul,
 ol ul,
 ul ol,
