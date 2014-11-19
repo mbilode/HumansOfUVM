@@ -58,7 +58,7 @@
         
         //// CONNECT TO DATABASE ////
 
-        require_once('../database/myDatabase.php');
+        require_once('database/myDatabase.php');
 
         $dbUserName = get_current_user() . '_writer';
         $whichPass = "w"; //flag for which one to use.
