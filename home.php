@@ -4,8 +4,6 @@
   <body>
       
       
-  <img src="HumansOfUVM.jpg">
-      
    <?php>include("nav.php")?>
     <h1>Humans of UVM</h1>
     <p>yo we are so amazing <br> maybe even more than everyone else<br>

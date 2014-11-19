@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +16,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-=======
     <head>
         <title>Form</title>
         <meta charset="utf-8">
@@ -76,7 +74,7 @@
         
         //// CONNECT TO DATABASE ////
 
-        require_once('../database/myDatabase.php');
+        require_once('database/myDatabase.php');
 
         $dbUserName = get_current_user() . '_writer';
         $whichPass = "w"; //flag for which one to use.
@@ -93,4 +91,3 @@
 
     include "header.php";
     ?>
->>>>>>> FETCH_HEAD

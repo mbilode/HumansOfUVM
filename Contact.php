@@ -4,8 +4,6 @@
   <body>
       
       
-  <img src="HumansOfUVM.jpg">
-      
    <?php>include("nav.php")?>
   <h1>Contact Us</h1>
 

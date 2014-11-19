@@ -5,23 +5,33 @@
  */
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+//<-------------------------------------EXTRA--------->
+
+
+
+
+header>img {
+width: 110.6%;
+margin-left: -3.97em;
+margin-top: -3.97em;
+}
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
+//<-------------------------------------ABOUT--------->
 
-
-
-
-
-img:nth-child(1) {
-vertical-align: middle;
-margin-left: -57px;
-margin-top: -4em;
-width: 111%;
+#aboutPic>img {
+width: 6em;
+border-radius: 100%;
+margin: 7px;
 }
+
+
+
 
 //<-------------------------------------NAVAGATION--------->
 
