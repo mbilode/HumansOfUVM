@@ -1,0 +1,155 @@
+
+
+//<-------------------------------------EXTRA---------------//
+
+header>img {
+width: 110.6%;
+margin-left: -3.97em;
+margin-top: -3.97em;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+//<-------------------------------------ABOUT---------------//
+
+img#aboutPic {
+width: 10%;
+border-radius: 50%;
+}
+
+//<-------------------------------------HEADER-------------//
+
+header>img {
+width: 105%;
+padding: 0;
+margin: -9px;
+}
+
+
+//<-------------------------------------NAVAGATION---------//
+
+nav>ul>li>ul {
+margin-right: 2em;
+display: none;
+}
+
+nav>ul {
+display: flex;
+list-style-type: none;
+float: right;
+}
+
+nav>ul>li>ul {
+list-style-type: none;
+}
+
+
+nav ul li:nth-child(3):hover {
+margin-right: -11.8em;
+z-index: 1;
+}
+
+
+nav ul li {
+padding-left: 10px;
+}
+
+
+nav ul li:hover>ul {
+display: block;
+/* padding: 0; */
+margin-left: -80px;
+padding-top: 1.8em;
+opacity: 0.5;
+}
+
+nav ul ul {
+display: none;
+}
+
+
+nav>ul>li {
+padding: 5px;
+}
+
+body:not(img){
+    margin:4em;
+}
+
+ul, ol {
+margin-top: 0;
+margin-bottom: 10px;
+display: flex;
+list-style-type: none;
+float: right;
+margin-right: 5em;
+padding: 8px;
+}
+
+nav ul li {
+padding-left: 10px;
+}
+
+
+
+
+//----------------BOOTSTRAP LEFT OVERS--------------------//
+
+h1,
+.h1 {
+  font-size: 36px;
+}
+h2,
+.h2 {
+  font-size: 30px;
+}
+h3,
+.h3 {
+  font-size: 24px;
+}
+h4,
+.h4 {
+  font-size: 18px;
+}
+  html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
