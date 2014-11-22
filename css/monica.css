@@ -1,46 +1,82 @@
 
 
-//<-------------------------------------EXTRA---------------//
 
-header>img {
-width: 110.6%;
-margin-left: -3.97em;
-margin-top: -3.97em;
+
+
+/*<-------------------------------------HOME/GALLERY----------*/
+
+
+#gallery .image-row img{
+    width: 125px;
 }
+#gallery #main{
+    clear: both;
+    width: 90%;
+}
+
+.image-row>a>img {
+width: 20%;
+margin-left: -13px;
+}
+
+
+.image-row {
+margin-right: auto;
+margin-left: 4em;
+width: 99%;
+}
+
+/*<-------------------------------------HEADER----------*/
+
+
+
+body>header>img {
+width: 103.4%;
+margin-left: -30.6px;
+margin-top: -7.6px;
+}
+
+/*<-------------------------------------EXTRA---------------*/
 
 html {
   font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
 }
 
-//<-------------------------------------ABOUT---------------//
+:not(header) {
+margin-left: 1em;
+}
+
+/*<-------------------------------------ABOUT------------*/
 
 img#aboutPic {
 width: 10%;
 border-radius: 50%;
 }
 
-//<-------------------------------------HEADER-------------//
+body#about>p {
+width: 60%;
+}
 
-header>img {
-width: 105%;
-padding: 0;
-margin: -9px;
+#about>h3 {
+margin-left: 6em;
+margin-top: -4em;
 }
 
 
-//<-------------------------------------NAVAGATION---------//
+p#secondAbout {
+margin-left: 10.7em;
+margin-top: -1em;
+}
+
+/*<-------------------------------------NAVAGATION---------*/
 
 nav>ul>li>ul {
 margin-right: 2em;
 display: none;
 }
 
-nav>ul {
-display: flex;
-list-style-type: none;
-float: right;
+nav {
+margin-bottom: 4em;
 }
 
 nav>ul>li>ul {
@@ -54,30 +90,16 @@ z-index: 1;
 }
 
 
-nav ul li {
-padding-left: 10px;
-}
-
-
 nav ul li:hover>ul {
 display: block;
-/* padding: 0; */
 margin-left: -80px;
 padding-top: 1.8em;
 opacity: 0.5;
+margin-right: 51.6px;
 }
 
 nav ul ul {
 display: none;
-}
-
-
-nav>ul>li {
-padding: 5px;
-}
-
-body:not(img){
-    margin:4em;
 }
 
 ul, ol {
@@ -90,14 +112,8 @@ margin-right: 5em;
 padding: 8px;
 }
 
-nav ul li {
-padding-left: 10px;
-}
 
-
-
-
-//----------------BOOTSTRAP LEFT OVERS--------------------//
+/*----------------BOOTSTRAP LEFT OVERS--------------------*/
 
 h1,
 .h1 {
@@ -115,11 +131,7 @@ h4,
 .h4 {
   font-size: 18px;
 }
-  html {
-  font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-}
+
 
 h1,
 h2,
@@ -137,13 +149,6 @@ h6,
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
-}
-
-@font-face {
-  font-family: 'Glyphicons Halflings';
-
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 
 body {
