@@ -20,6 +20,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     
-    
+  <?php       
+include ("footer.php");?>
   </body>
 </html>

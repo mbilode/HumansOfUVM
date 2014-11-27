@@ -2,6 +2,27 @@
 
 
 
+body#Contact>a>img {
+width: 7%;
+}
+
+body#Contact>a>img {
+padding-right: 16em;
+padding-top: 9px;
+padding-bottom: 6px;
+padding-left: 6px;
+background-color: aquamarine;
+border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 4em;
+border-top-right-radius: 4em;
+}
+
+
+
+
+
+
 
 /*<-------------------------------------HOME/GALLERY----------*/
 
@@ -114,7 +135,7 @@ list-style-type: none;
 }
 
 body>h1 {
-padding-top: 3em;
+padding-top: 2em;
 }
 
 

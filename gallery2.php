@@ -1,21 +1,5 @@
-
-
-
-
-
-
-
-
-<script src="js/jquery-1.11.0.min.js"></script>
-	<script src="js/lightbox.min.js"></script>
-        
-        <link href="css/lightbox.css" rel="stylesheet" />
-
-
-
-
-
 <?php
+//##########################################################################
 print '<article id="main">';
 if ($debug) print "<p>DEBUG MODE IS ON</p>";
 
@@ -69,7 +53,7 @@ $images = getFileList($basePath . $folder);
         
         
        // data-lightbox="cs-fair">\n<img class="img-thumbnail" src="HumanPics/pic' + i + '.jpg" alt="CS Fair 2013" />\n</a>
-    echo '<a class="example-image-link" rel="lightbox" href="' . $folder . '/' . $img . '"data-lightbox="'. $img .'">';
+    echo '<a class="example-image-link" rel="lightbox" href="'. folder . '/' . $img . '"data-lightbox="'. $img .'">';
     echo '<img class="' . $folder . '/' . $img . '" src="' . $folder . '/' . $img . '" alt="Humans" />' . "\n";
     echo "</a>";
 }

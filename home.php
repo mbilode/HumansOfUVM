@@ -3,8 +3,6 @@
 
   
    <?php>include("nav.php")?>
-
-    <h1>Humans of UVM</h1>
     
     
     <?php>include("gallery.php")?>
