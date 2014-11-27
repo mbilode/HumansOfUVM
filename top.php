@@ -12,8 +12,13 @@
         <!--[if lt IE 9]>
         <script src="//html5shim.googlecode.com/sin/trunk/html5.js"></script>
         <![endif]-->
+        
+        
+        <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
 
         <link rel="stylesheet" href="css/monica.css" media="screen">
+        
 
         <?php
         $debug = false;
@@ -50,15 +55,16 @@
         }
         
         
-        if ($path_parts['filename'] == "gallery") {
+        if ($path_parts['filename'] == "home.php") {
             ?>
-            <script src="js/jquery-1.10.2.min.js"></script>
-            <script src="js/lightbox-2.6.min.js"></script>
-
-            <link href="css/lightbox.css" rel="stylesheet" />  
+            <script src="js/jquery-1.11.0.min.js"></script>
+            <script src="js/lightbox.min.js"></script>
+            <link href="css/lightbox.css" rel="stylesheet" />
+            <link href="css/screen.css" rel="stylesheet" />
             <?php
         } // end if for photo gallery page
 
+        
         /// LIBRARIES ////
         /* 
          // i dont think we need this //

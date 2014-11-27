@@ -48,24 +48,25 @@ $images = getFileList($basePath . $folder);
 
     
 		
-<div class="image-row">    
+<div class="image-row">  
     <?php
+
+    
     
     foreach ($images as $img) {
-    echo '<a rel="lightbox" href="' . $folder . '/' . $img . '" data-lightbox="example-1" title="">';
-    echo '<img src="' . $folder . '/' . $img . '" alt="" />' . "\n";
+        
+        
+       // data-lightbox="cs-fair">\n<img class="img-thumbnail" src="HumanPics/pic' + i + '.jpg" alt="CS Fair 2013" />\n</a>
+    echo '<a class="example-image-link" rel="lightbox" href="HumanPics/JPEG/' . $img . '"data-lightbox="'. $img .'">';
+    echo '<img class="' . $folder . '/' . $img . '" src="' . $folder . '/' . $img . '" alt="Humans" />' . "\n";
     echo "</a>";
 }
-//needs to be set in css width="150" height="150"
 
 
 if ($debug) print "<p>END</p>";
     ?>
 </div>
-   
+   </div>
 
    
-
-
-</body>
-</html>
+   
