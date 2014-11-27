@@ -1,0 +1,397 @@
+
+
+
+
+body#Contact>a>img {
+width: 7%;
+}
+
+body#Contact>a>img {
+padding-right: 16em;
+padding-top: 9px;
+padding-bottom: 6px;
+padding-left: 6px;
+background-color: aquamarine;
+border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 4em;
+border-top-right-radius: 4em;
+}
+
+
+
+
+
+
+
+/*<-------------------------------------HOME/GALLERY----------*/
+
+
+#gallery .image-row img{
+width: 125px;
+
+
+}
+.image-row>a>img {
+border-radius: 1.8%;
+}
+
+
+
+#gallery #main{
+clear: both;
+}
+
+.image-row>a>img {
+height: 12em;
+margin-left: -13px;
+}
+
+
+.image-row {
+margin-right: auto;
+margin-left: 0em;
+width: 99%;
+}
+
+/*<-------------------------------------HEADER----------*/
+
+
+
+body>header>img {
+width: 103.4%;
+margin-left: -30.6px;
+margin-top: -7.6px;
+}
+
+/*<-------------------------------------EXTRA---------------*/
+
+html {
+  font-family: sans-serif;
+}
+
+
+h1 {
+margin-bottom: 11px;
+margin-top: -2em;
+/* border-bottom: darkblue solid 2px; */
+/* color: darkblue; */
+/* border-bottom-right-radius: 14px; */
+}
+
+:not(header) {
+margin-left: 1em;
+}
+
+/*<-------------------------------------ABOUT------------*/
+
+img#aboutPic {
+width: 10%;
+border-radius: 50%;
+}
+
+body#about>p {
+width: 60%;
+}
+
+#about>h3 {
+margin-left: 6em;
+margin-top: -4em;
+}
+
+
+p#secondAbout {
+margin-left: 10.7em;
+margin-top: -1em;
+}
+
+/*<-------------------------------------NAVAGATION---------*/
+
+
+nav ul li ul li:hover {
+background-color: purple;
+width: 103%;
+margin-left: -5px;
+padding-left: 20px;
+padding-top: 2px;
+padding-bottom: 2px;
+border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+
+li a {
+color: white;
+text-decoration: none;
+font-weight: 100;
+}
+
+li {
+color: white;
+}
+
+li {
+list-style-type: none;
+}
+
+body>h1 {
+padding-top: 2em;
+}
+
+
+
+header:not(nav) {
+margin-bottom: 51px;
+}
+
+nav>ul>li>a:hover {
+color: lightcyan;
+font-weight: 600;
+}
+
+nav>ul>li:hover>ul {
+display: block;
+}
+
+nav>ul>li:nth-child(3):hover {
+margin-right: -20px;
+margin-bottom: -200px;
+}
+
+
+nav>ul>li:nth-child(4) {
+margin-left: 15px;
+}
+
+nav>ul>li>ul {
+background-color: grey;
+padding: 6px;
+margin-left: -89px;
+opacity: .5;
+display: none;
+margin-top: 2em;
+}
+
+nav>ul>li>ul>li>a {
+color: white;
+text-decoration: none;
+padding: 2px;
+margin-left: -4px;
+}
+
+nav>ul>li:nth-child(1) {
+margin-left: 50em;
+}
+
+
+
+nav ul {
+margin-top: -6.9em;
+background-color: #454545;
+width: 103.3%;
+height: 46px;
+opacity: .8;
+margin-left: -4.9em;
+}
+
+nav>ul>li {
+display: inline-flex;
+margin-top: 11px;
+}
+
+
+nav ul {
+background-color: #454545;
+width: 103.3%;
+height: 42px;
+opacity: .8;
+}
+
+
+
+/*
+nav>ul li:nth-child(1) {
+
+margin-left: 53em;
+}
+
+
+
+
+ul li ul {
+z-index: -1;
+position: relative;
+}
+
+
+
+.greydout {
+  -webkit-opacity: 0.25;
+  -moz-opacity: 0.25;
+  opacity: 0.25;
+-webkit-transition: all 3s ease;
+  -moz-transition: all 3s ease;
+  -ms-transition: all 3s ease;
+  -o-transition: all 3s ease;
+  transition: all 3s ease;
+}
+
+.greydout {
+  -webkit-opacity: 0.2;
+  -moz-opacity: 0.2;
+  opacity: 0.2;
+}
+
+
+.greydout:hover {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+
+/*nav>ul>li>ul {
+background-color: black;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;
+}
+
+
+
+
+ul li ul li:hover {
+padding-bottom: 20px;
+}
+
+
+
+
+nav ul li:hover {
+height: 0px;
+}
+
+nav ul {
+background-color: #454545;
+width: 103.3%;
+height: 42px;
+opacity: .8;
+margin-right: -8px;
+margin-top: -61px;
+margin-left: -45px;
+}
+
+li {
+color: white;
+font-weight: 100;
+line-height: 40px;
+}
+
+nav ul li a {
+color: white;
+font-weight: 100;
+line-height: 40px;
+text-decoration: none;
+}
+
+
+
+
+nav>ul>li>ul {
+margin-right: 2em;
+display: none;
+}
+
+
+
+nav {
+margin-bottom: 4em;
+}
+
+
+
+nav>ul>li>ul {
+list-style-type: none;
+}
+
+
+
+nav ul li:nth-child(3):hover {
+margin-right: -1em;
+margin-left: 12em;
+}
+
+
+
+nav ul li:hover>ul {
+display: block;
+margin-left: -80px;
+padding-top: 7px;
+margin-top:9.3px;
+opacity: 0.50;
+margin-right: -3px;
+}
+
+
+
+
+
+nav ul ul {
+display: none;
+}
+
+
+ul, ol {
+margin-top: 0;
+margin-bottom: 10px;
+display: flex;
+list-style-type: none;
+float: left;
+margin-right: 5em;
+padding: 8px;
+}
+
+*/
+/*----------------BOOTSTRAP LEFT OVERS--------------------*/
+
+h1,
+.h1 {
+  font-size: 36px;
+}
+h2,
+.h2 {
+  font-size: 30px;
+}
+h3,
+.h3 {
+  font-size: 24px;
+}
+h4,
+.h4 {
+  font-size: 18px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}

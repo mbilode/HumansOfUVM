@@ -1,21 +1,5 @@
-
-
-
-
-
-
-
-
-<script src="js/jquery-1.11.0.min.js"></script>
-	<script src="js/lightbox.min.js"></script>
-        
-        <link href="css/lightbox.css" rel="stylesheet" />
-
-
-
-
-
 <?php
+//##########################################################################
 print '<article id="main">';
 if ($debug) print "<p>DEBUG MODE IS ON</p>";
 
@@ -59,26 +43,29 @@ function getFileList($url) {
 $images = getFileList($basePath . $folder);
 
 
-?>	
-<div class="image-row">  
-    <?php
+?>
+
 
     
+		
+<div class="image-row">    
+    <?php
     
     foreach ($images as $img) {
-        
-        
-       // data-lightbox="cs-fair">\n<img class="img-thumbnail" src="HumanPics/pic' + i + '.jpg" alt="CS Fair 2013" />\n</a>
-    echo '<a class="example-image-link" rel="lightbox" href="' . $folder . '/' . $img . '"data-lightbox="'. $img .'">';
-    echo '<img class="' . $folder . '/' . $img . '" src="' . $folder . '/' . $img . '" alt="Humans" />' . "\n";
+    echo '<a rel="lightbox" href="' . $folder . '/' . $img . '" data-lightbox="example-1" title="">';
+    echo '<img src="' . $folder . '/' . $img . '" alt="" />' . "\n";
     echo "</a>";
 }
+//needs to be set in css width="150" height="150"
 
 
 if ($debug) print "<p>END</p>";
     ?>
 </div>
-   </div>
+   
 
    
-   
+
+
+</body>
+</html>

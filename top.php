@@ -1,25 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Humans of UVM</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-=======
+  
     <head>
-        <title>Form</title>
+        <title>Humans of UVM</title>
         <meta charset="utf-8">
         <meta name="author" content="Michelle Marin, Monica Bilodeau">
         <meta name="description" content="Inspired by all of us - this project seeks to capture and share the daily beauty in the people of the UVM community.">
@@ -29,8 +12,13 @@
         <!--[if lt IE 9]>
         <script src="//html5shim.googlecode.com/sin/trunk/html5.js"></script>
         <![endif]-->
+        
+        
+        <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
 
-        <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="css/monica.css" media="screen">
+        
 
         <?php
         $debug = false;
@@ -55,6 +43,8 @@
         $phpSelf = htmlentities($_SERVER['PHP_SELF'], ENT_QUOTES, "UTF-8");
 
         $path_parts = pathinfo($phpSelf);
+        
+        $basePath = $domain . $path_parts['dirname'] . "/";
 
         if ($debug) {
             print "<p>Domain" . $domain;
@@ -63,7 +53,18 @@
             print_r($path_parts);
             print "</pre>";
         }
+        
+        
+        if ($path_parts['filename'] == "home.php") {
+            ?>
+            <script src="js/jquery-1.11.0.min.js"></script>
+            <script src="js/lightbox.min.js"></script>
+            <link href="css/lightbox.css" rel="stylesheet" />
+            <link href="css/screen.css" rel="stylesheet" />
+            <?php
+        } // end if for photo gallery page
 
+        
         /// LIBRARIES ////
         /* 
          // i dont think we need this //
@@ -76,7 +77,7 @@
         
         //// CONNECT TO DATABASE ////
 
-        require_once('../database/myDatabase.php');
+        require_once('database/myDatabase.php');
 
         $dbUserName = get_current_user() . '_writer';
         $whichPass = "w"; //flag for which one to use.
@@ -93,4 +94,3 @@
 
     include "header.php";
     ?>
->>>>>>> FETCH_HEAD
