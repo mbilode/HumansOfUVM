@@ -83,7 +83,7 @@
         $whichPass = "w"; //flag for which one to use.
         $dbName = strtoupper(get_current_user()) . '_HUMANS_UVM';
 
-        $thisDatabase = new myDatabase($dbUserName, $whichPass, $dbName);
+        $dbh = new myDatabase($dbUserName, $whichPass, $dbName);
         ?>	
 
     </head>

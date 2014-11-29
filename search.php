@@ -32,8 +32,11 @@ if (isset($_POST["btnSubmit"])) {
 
 
     //WRITE QUERY!! ///
+    
+    $query = "SELECT * FROM tblImage WHERE fldCategory = ?";
+    $data = array($search);
 
-    $results = $thisDatabase->select($queryFinal);
+    $results = $thisDatabase->select($query,$data);
 
     echo "<font color='red' size='15'> SUBMITTED YO</font>";
 
