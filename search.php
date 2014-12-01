@@ -4,6 +4,14 @@
 <link href="css/lightbox.css" rel="stylesheet" />
 <div class="image-row"> 
     <?php
+    /*
+    require_once('database/myDatabase.php');
+
+        $dbUserName = get_current_user() . '_admin';
+        $whichPass = "a"; //flag for which one to use.
+        $dbName = strtoupper(get_current_user()) . '_HUMANS_UVM';
+
+        $dbh = new myDatabase($dbUserName, $whichPass, $dbName);*/
 
 /// FORM VARIABLES //
     $search = "";
