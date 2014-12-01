@@ -3,11 +3,21 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/Users/monicabilodeau/NetBeansProjects/HumansOfUVM/gallery2.php</file>
             <file>file:/Users/monicabilodeau/NetBeansProjects/HumansOfUVM/about.php</file>
             <file>file:/Users/monicabilodeau/NetBeansProjects/HumansOfUVM/Contact.php</file>
             <file>file:/Users/monicabilodeau/NetBeansProjects/HumansOfUVM/home.php</file>
             <file>file:/Users/monicabilodeau/NetBeansProjects/HumansOfUVM/css/monica.css</file>
+=======
+            <file>file:/Users/Mich/Desktop/HumansOfUVM/home.php</file>
+            <file>file:/Users/Mich/Desktop/HumansOfUVM/top.php</file>
+            <file>file:/Users/Mich/Desktop/HumansOfUVM/database/myDatabase.php</file>
+            <file>file:/Users/Mich/Desktop/HumansOfUVM/gallery2.php</file>
+            <file>file:/Users/Mich/Desktop/HumansOfUVM/nav.php</file>
+            <file>file:/Users/Mich/Desktop/HumansOfUVM/search.php</file>
+            <file>file:/Users/Mich/Desktop/HumansOfUVM/testGallery.php</file>
+>>>>>>> FETCH_HEAD
         </group>
     </open-files>
 </project-private>

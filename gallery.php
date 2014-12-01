@@ -78,7 +78,7 @@ $images = getFileList($basePath . $folder);
 if ($debug) print "<p>END</p>";
     ?>
 </div>
-   </div>
+  
 
    
    
