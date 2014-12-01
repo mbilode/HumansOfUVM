@@ -2,29 +2,95 @@
 
 
 
-body#Contact>a>img {
-width: 7%;
+
+footer {
+padding-top: 1.5em;
+background-color: black;
+width: 105.8%;
+margin-left: -29.6px;
+padding-bottom:4em
 }
 
-body#Contact>a>img {
-padding-right: 16em;
-padding-top: 9px;
-padding-bottom: 6px;
-padding-left: 6px;
+
+html {
 background-color: aquamarine;
-border-bottom-left-radius: 10px;
-border-top-left-radius: 10px;
-border-bottom-right-radius: 4em;
-border-top-right-radius: 4em;
+border-right: solid 27px aquamarine;
 }
 
 
+header {
+width: 102.4%;
+}
+
+nav {
+width: 101.1%;
+}
+
+
+/*-----------------CONTACT-----------------------------*/
+
+
+body#Contact>ol>li>a>img {
+width: 63px;
+}
+
+
+body#Contact>ol {
+display: inline-flex;
+margin-left: 297px;
+}
+
+
+body#Contact>h5 {
+margin-left: 38em;
+}
+body#Contact>h2 {
+margin-right: 100px;
+text-align: center;
+/* background-color: red; */
+}
+
+
+body#Contact>ol>li:nth-child(1)>a {
+padding-top: 47px;
+padding-bottom: 17px;
+}
+
+
+body#Contact>ol>li>a {
+padding-right: 1em;
+padding-top: 61px;
+padding-bottom: 6px;
+/* padding-left: 0px; */
+border-radius: 32%;
+background-color: darkgrey;
+/* border-bottom-left-radius: 10px; */
+/* border-top-left-radius: 10px; */
+/* border-bottom-right-radius: 4em; */
+/* border-top-right-radius: 4em; */
+}
+
+
+body#Contact>ol>li>a>img {
+border-radius: 27%;
+}
+
+
+body#Contact>ol>li:nth-child(1)>a>img {
+border-radius: 1%;
+}
 
 
 
 
 
 /*<-------------------------------------HOME/GALLERY----------*/
+
+body#home>p {
+font-family: sans-serif;
+font-style: oblique;
+font-variant: small-caps;
+}
 
 
 #gallery .image-row img{

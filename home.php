@@ -4,7 +4,7 @@
   
    <?php>include("nav.php")?>
     
-    
+<p>Inspired by the minds and aspirations of UVMers alike. We are here to share the daily beauty that makes up the heart of UVM.</p>
     <?php>include("gallery.php")?>
     
    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
